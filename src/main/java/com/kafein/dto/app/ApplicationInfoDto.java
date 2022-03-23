@@ -1,5 +1,6 @@
-package com.kafein.dto;
+package com.kafein.dto.app;
 
+import com.kafein.dto.customer.CustomerDto;
 import lombok.Data;
 
 import java.util.List;

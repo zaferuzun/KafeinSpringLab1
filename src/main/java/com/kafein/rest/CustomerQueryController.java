@@ -1,13 +1,12 @@
 package com.kafein.rest;
 
 import com.kafein.config.AppConfiguration;
-import com.kafein.dto.ApplicationInfoDto;
-import com.kafein.dto.CustomerDto;
+import com.kafein.dto.customer.CustomerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/rest/v1/customer")
+@RequestMapping("/rest/v1/customer/query")
 public class CustomerQueryController {
 
     @Autowired

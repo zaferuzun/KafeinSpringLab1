@@ -1,4 +1,4 @@
-package com.kafein.dto;
+package com.kafein.dto.customer;
 
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
